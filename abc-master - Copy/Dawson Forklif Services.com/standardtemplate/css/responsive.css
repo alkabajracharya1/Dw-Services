@@ -1,0 +1,529 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+   
+    .navbar-brand{
+        width: 25%;
+        height: 15%;
+        display: block;
+        float: left;
+        margin-left: 0px;
+    }
+    div#navbarSupportedContent {
+        display: block !important;
+        position: fixed;
+        background: #fff;
+        height: 100vh !important;
+        top: 0px;
+        padding-left: 15px;
+        left: -80%;
+        z-index: 9999;
+        width: 60%;
+        transition: all 0.4s;
+    }
+    .banneroverlayimg img{
+        width: 100%;
+        background-size: cover;
+    }
+    .content-wrapper{
+        padding-top: 40px;
+    }
+    .yellowbox{
+        width: 115px;
+        height: 125px;
+        margin-left: 6%;
+    }
+    .yellow-right{
+        left: 2%;
+        margin-top: -8% !important;
+    }
+    .lastbox{
+        margin-left: -5%;
+    }
+    .clientbox{
+        margin-left: 0%;
+    }
+    .boxbglast{
+        width: 255px;
+        left: 20px;
+        height: 60px;
+        left: 1em;
+        border: none;
+    }
+    div#navbarSupportedContent.show {
+        left: 0;
+    }
+    .navbar-light .navbar-toggler{
+        /*margin-left: 90%;*/
+        float: right;
+    }
+    .navbar-fixed-top {
+        position: relative;
+    }
+    .top-header, .banner-caption {
+        display: none
+
+    }
+    .banner-caption h3{
+        font-size: 40px;
+    }
+    .banner-caption .container{
+        padding-left: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .banner-caption p{
+        font-size: 14px;
+    }
+    h2{
+    font-size: 40px;
+    height: 55px;
+    width: 200px
+    border: 2px solid red;
+    }
+    .boxbg{
+        width: 258px;
+        left: 50px;
+        height: 60px;
+    }
+    .logo {
+        text-align: center;
+        display: none;
+    }
+    .large-device{
+        display: none;
+    }
+    .responsive-view{
+        display: block;
+    }
+    #Services{padding-top: -30px;}
+    .servicestxt{
+        left: 20px;
+        margin-top: 34%;
+        height: 50px;
+    }
+    .service-paragraph{
+        padding: 15px;
+        justify-content: center;
+    }
+  /*  .service-about, .servicesinfo .btn-shadow{
+        padding-left: 20px;
+        margin-left: 38%;
+    }*/
+    .box-arrange{
+        margin-top: 4%;
+    }
+    .box-arrange2{
+        width: 130px;
+        height: 148px;
+        top: 5%;
+        left: 2em;
+    }
+    .btn-about, .service-about{
+        margin-left: 28%;
+    }
+    .service-about a{
+        padding: 6px 30px;
+    }
+    .about-box{
+        padding: 7px;
+        font-size: 14px;
+    }
+    .abt-img{
+        margin-top: 20px;
+
+    }
+    .btn-abt{
+        padding: 6px 16px;
+    }
+    .servicesinfo .btn-shadow{
+        margin-left: 31%;
+        height: 41px;
+        margin-top: -2em;
+    }
+    .btn-shadow{
+    width: 31%;
+    height: 6%;
+    margin-top: -2.3em;
+    }
+    .shadow .centershadow{
+        width: 5em;
+        color: red;
+    }
+    .btm-header .main-menu {
+        float: none;
+        position: relative;
+        top: 0;
+        width: 100%;
+        left:
+        margin-top: 10px;
+        z-index: 999;
+    }
+    .banner-wrapper {
+        margin-top: 0;
+    }
+    .buttons a{
+        margin: 20px;
+        height: 7%;
+    }
+    .buttons .btns, .btn{
+        padding: 7px 3px;
+        width: 8em;
+        font-size: 16px;
+    }
+    .buttons .shadow{
+        width: 7.2em;
+       margin-top: -55px;
+        margin-left: 40px;
+    }
+     .photogalary .buttons{
+        margin-left: 21%;
+    }
+    .btn-consult{
+        width: 7em;
+    }
+    #consult .buttons .shadow{
+        margin-left: -11px;
+    }
+    .icons {
+        width: 100%;
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+        margin: auto !important;
+        text-align: center !important;
+
+    }
+    .th-content .icons ul li i{
+        text-align: center;
+        margin: auto;
+    }
+    .th-content .icons ul li i{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    .social-icon{
+        margin-left: 28%;
+    }
+    .headingtxt{
+        width: 97%;
+        margin-top: 14px;
+        left: 20px;
+        height: 100px;
+        margin-bottom: 2em;
+    }
+    .container-left .h3-white{
+        margin-top: 1px;
+        margin-bottom: 2em;
+         height: 100px;
+    }
+    #Gallery{
+        padding-top: 40px;
+    }
+    .gallarytxt{
+        width: 50%;
+        height: 65px;
+        margin-bottom: 1em;
+    } 
+    .gallerybtn{
+     margin-top: -30px;
+    margin-left: 0px !important;
+    }
+    .galleryshadow{
+        width: 7em !important;
+        margin-top: -48px !important;
+        margin-left: 12px !important;
+    }
+    h1{
+    margin-top: 4em !important;   
+    }
+    .buttons{
+    margin: auto;
+    width: 50%;
+    margin-top: -21px;
+    }
+    .detail-left{
+        margin-left: 2em;
+    }
+    .feature-list{
+        font-size: 14px;
+    }
+    .feature-right{
+        padding-left: 0px;
+    }
+    .text{
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+    }
+    .text h5{text-align: center;}
+    .container-left{
+        margin-left: 0px;
+        padding: 15px;
+    }
+    #clientsection{
+        width: 100%;
+    }
+    .productstxt{
+        width: 100%;
+        text-align: left;
+        font-size: 38px !important;
+        margin-top: 28px;
+        margin-bottom: 40px;
+        right: 42%;
+        height: 60px;
+    }
+    .consult-txts{
+        width: 100%;
+        padding: 40px 20px;
+      
+
+    }
+    #consult h3{
+        font-size: 33px;
+    }
+    .consult-para{
+        font-size: 14px;
+    }
+    .footermiddle h4{
+        padding-left: 3.5em;
+    }
+    .footermiddle{
+        margin-left: -25%;
+
+    }
+    #footer{
+        width: 100%;
+        padding: 20px;
+    }
+    .footerlist{
+        /*font-size: 14px;*/
+    }
+    .contactright img{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .btm-footer {
+        padding-bottom: 100px;
+    }
+    .footerright{
+        padding-left: 0px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .powered {
+        text-align: center;
+        float: none;
+    }
+    .footer-button {
+        display: block; 
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width: 734px) and (orientation : landscape){
+    .btn-shadow{width: 21%; margin-top: -1.8em;}
+    .servicestxt{margin-top: 10%;}
+    .box-arrange{margin-top: -6%;}
+    .services .card-body{top: 61%; margin-left: 8%;}
+    h2, .headingtxt, .h3-white, .container-left .h3-white{height: 60px;}
+    .box-arrange2{margin-top: -1%; top: 7%; left: 5em;}
+    .yellow-right{left: 11%;}
+    .worker{height: 100%;}
+    .three{left: 3em;}
+    .contactright img{width: 20%; margin-left: 39%; margin-top: 9%;}
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+@media (min-width: 768px) {
+
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+    .top-header{display: none;}
+    .navbar-brand{display: block;}
+    .logo{display: none;}
+    h2, .boxbg{font-size: 45px; width: 300px; text-align: center;}
+    img{height: 100%;} 
+    .boxbg{left: 30%; margin: 40px 0px;}
+    .abt-img{ margin: auto;}
+    .small-txt-box{margin-left: 20%;top: -3%;}
+    .servicesinfo .small-txt-box{top: -3%;} 
+    .box-arrange{top: 4%;}
+    .btn-about{margin: auto; margin-bottom: 2em;}
+    .large-device{display: none;}
+    .responsive-view{display: block;}
+    .servicestxt{margin-top: 6%; text-align: center; left: 0px; height: 80px; width: 300px;}
+    .box-arrange{top: 3%;}
+    .service-paragraph{margin-top: -10%;}
+    .box-arrange{top: 8%; left: 8%;}
+    .headingtxt{margin-bottom: 1em; margin-top: 0.7em; left: 1em;}
+    #Detail-info .col-md-7{padding-left: 20px;}
+    .feature-right{padding-left: 20px; padding-right: 0px;}
+    .productstxt{width: 380px;margin: auto; margin-top: 0.4em;  margin-bottom: 80px; }
+    .product-paragraph{padding: 0px 40px;}
+    .clientbox{margin-left: 22%;}
+    .box-arrange2{left: 15%;}
+    .yellow-right{margin-left: 22%; top: 22%;}
+    .container-left{margin-left: 2em;}
+    .consult-txts{padding: 5em 0px;}
+    .contactright img{margin-left: 19%; margin-top: 50%; padding-bottom: 20px;}
+    .contactright img{width: 60%; height: auto;}
+    .contactdetail p{font-size: 15px;}
+    #footer p, .footerlist li{font-size: 14px;}
+    #footer ul li{font-size: 14px;}
+    .footermiddle, .footermiddle .footerlist{padding: 0px; margin: 0px;}
+    .footermiddle h4{padding-left: 1em;}
+    .footerright{padding-right:0px;}
+    .buttonsame{margin-left: 40%;}
+    /*--buttons--*/
+    .btn-shadow{width: 16%; height: 6%;margin-top: -2.1em;}
+    .service-about{margin-left: 2%;}
+    .servicesinfo .btn-shadow{margin-left: 41%;}
+    .buttonshover .buttons{margin-left: 20px;}
+    .photogalary .buttons {margin-left: 37%;}
+    .buttons .galleryshadow{height: 2.2em;}
+    #consult .buttons .shadow{width: 8.5em; margin-top: -52px; margin-left: 9px;}
+    
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+  .navbar-brand{display: none;}
+  .logo{display: block;}
+  .navbar-nav .col-lg-3 {width: 15%;}
+  .main-menu{font-size: 18px;}
+  .navbar-nav .companylogo{max-width: 19%;}
+  .navbar-nav li{padding: 0px 23px;}
+  .navbar-nav{padding:10px 0px;}
+  .abtlogo{height: 100%; margin-top: 5em;}
+  .buttonsame{margin-left: 0px;}
+  .btn-about a{width: 9em;}
+   .btn-about .btn-shadow{width: 16%;height: 6%;}
+  .large-device{display: block;}
+  .responsive-view{display: none}
+  .servicestxt{margin-top: 49%; left: 24px;}
+  .servicesinfo .btn-shadow{left: -30%;}
+  .headingtxt{width: 71%;}
+  .product-heading {width: 78%;padding-left: 85px;margin-top: 1.1em; margin-bottom: 2em;}
+ .text, .productstxt{width: 70%;}
+ .clientbox{margin-left: 6%;}
+  .yellow-right{margin-left: -4%;top: -5%;}
+  .buttons .shadow{height: 2.5em;}
+  #consult .buttons .shadow{margin-left: 21px;}
+   
+
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+@media only screen and (min-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+@media only screen and (min-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+@media only screen and (min-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+@media only screen and (min-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+@media only screen and (min-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+@media only screen and (min-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+@media only screen and (min-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+@media only screen and (min-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
